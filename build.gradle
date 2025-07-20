@@ -25,6 +25,14 @@ dependencies {
 
     // MySQL JDBC driver
     runtimeOnly 'mysql:mysql-connector-java:8.0.33'
+
+    //websocket
+    implementation 'org.springframework.boot:spring-boot-starter-websocket'
+
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
+
+    implementation 'org.springframework.boot:spring-boot-starter-thymeleaf:3.5.3'
 }
 
 tasks.named('test') {
