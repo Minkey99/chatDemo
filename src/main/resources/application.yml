@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3307/chat?useSSL=false&serverTimezone=UTC
+    username: songkc123
+    password: 2804
